@@ -1,0 +1,117 @@
+31:615  26:704  Found UEFI Acpi 2.0 RSDP at 6FD0E014
+31:615  0:000  Saving ACPI tables from RSDP 6FD0E014 to EFI\CLOVER\ACPI\origin ...
+31:615  0:000   6FD0E014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+31:701  0:085    (Xsdt: 6FD0C188, Rsdt: 6FD0C0C4)
+31:701  0:000    6FD0C188: 'XSDT', 'TP-R0Y', Rev: 1, Len: 260 -> XSDT.aml
+31:764  0:062    6FD0C0C4: 'RSDT', 'TP-R0Y', Rev: 1, Len: 148 -> RSDT.aml
+31:827  0:062    Tables in Xsdt: 28
+31:827  0:000    0. 6E9E6000: 'FACP', 'TP-R0Y', Rev: 6, Len: 276 -> FACP.aml
+31:889  0:062        (Dsdt: 6E9BE000, Facs: 6FC05000, XDsdt: 6E9BE000, XFacs: 0)
+31:889  0:000        6E9BE000: 'DSDT', 'CFL', Rev: 2, Len: 143643 -> DSDT.aml
+31:994  0:104        6FC05000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+32:056  0:062    1. 6EA93000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+32:119  0:063        * 6FBE5098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1490  53 53 44 54 D2 05 00 00 02 90 50 6D 52 65 66 00 Internal length = 1490 -> SSDT-x0_0-Cpu0Ist.aml
+32:182  0:062        * 6FBD7018: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x0_1-ApIst.aml
+32:271  0:088        * 6FBD7698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+32:339  0:068        * 6FBE5B18: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+32:406  0:067        * 6B01A618: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 61 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x0_4-Cpu0Hwp.aml
+32:474  0:067        * 6B019018: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+32:542  0:067        * 6AFFD018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+32:610  0:067        * 6FBE5718: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+32:748  0:138        * 6FBD6018: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x0_8-ApPsd.aml
+32:816  0:067  
+32:816  0:000    2. 6EA92000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389 -> SSDT-1-CtdpB.aml
+32:883  0:067    3. 6EA59000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14742 -> SSDT-2-DptfTabl.aml
+32:954  0:070    4. 6E9EB000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12605 -> SSDT-3-SaSsdt.aml
+33:029  0:075    5. 6E9EA000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1554 -> SSDT-4-Tpm2Tabl.aml
+33:128  0:098    6. 6E9E9000: 'TPM2', 'TP-R0Y', Rev: 4, Len: 52 -> TPM2.aml
+33:196  0:067    7. 6FC1A000: 'UEFI', 'TP-R0Y', Rev: 1, Len: 66 -> UEFI.aml
+33:269  0:072    8. 6E9E7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1336 -> SSDT-5-PerfTune.aml
+33:337  0:068    9. 6E9E5000: 'HPET', 'TP-R0Y', Rev: 1, Len: 56 -> HPET.aml
+33:406  0:068    10. 6E9E4000: 'APIC', 'TP-R0Y', Rev: 3, Len: 300 -> APIC.aml
+33:474  0:067    11. 6E9E3000: 'MCFG', 'TP-R0Y', Rev: 1, Len: 60 -> MCFG.aml
+33:542  0:068    12. 6E9E2000: 'ECDT', 'TP-R0Y', Rev: 1, Len: 83 -> ECDT.aml
+33:609  0:067    13. 6E9BB000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 8964 -> SSDT-6-ProjSsdt.aml
+33:730  0:120    14. 6E9BA000: 'BOOT', 'TP-R0Y', Rev: 1, Len: 40 -> BOOT.aml
+33:797  0:067    15. 6E9B9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3299 -> SSDT-7-UsbCTabl.aml
+33:886  0:089    16. 6E9B8000: 'LPIT', 'TP-R0Y', Rev: 1, Len: 92 -> LPIT.aml
+33:954  0:067    17. 6E9B7000: 'WSMT', 'TP-R0Y', Rev: 1, Len: 40 -> WSMT.aml
+34:023  0:068    18. 6E9B5000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5279 -> SSDT-8-TbtTypeC.aml
+34:091  0:068    19. 6E9B4000: 'DBGP', 'TP-R0Y', Rev: 1, Len: 52 -> DBGP.aml
+34:159  0:067    20. 6E9B3000: 'DBG2', 'TP-R0Y', Rev: 0, Len: 84 -> DBG2.aml
+34:230  0:070    21. 6E9B2000: 'MSDM', 'TP-R0Y', Rev: 3, Len: 85 -> MSDM.aml
+34:298  0:068    22. 6E99D000: 'BATB', 'TP-R0Y', Rev: 2, Len: 74 -> BATB.aml
+34:366  0:068    23. 6DB97000: 'NHLT', 'TP-R0Y', Rev: 0, Len: 45 -> NHLT.aml
+34:434  0:068    24. 6DB96000: 'DMAR', 'TP-R0Y', Rev: 1, Len: 168 -> DMAR.aml
+34:503  0:068    25. 6DB94000: 'FPDT', 'TP-R0Y', Rev: 1, Len: 68 -> FPDT.aml
+34:571  0:068    26. 6DB93000: 'BGRT', 'TP-R0Y', Rev: 1, Len: 56 -> BGRT.aml
+34:692  0:120    27. 6FC00000: 'UEFI', 'TP-R0Y', Rev: 1, Len: 278 -> UEFI.aml
+34:803  0:111    Tables in Rsdt: 28
+34:803  0:000    0. 6E9E6000: 'FACP', 'TP-R0Y', Rev: 6, Len: 276
+34:803  0:000        (Dsdt: 6E9BE000, Facs: 6FC05000, XDsdt: 6E9BE000, XFacs: 0)
+34:803  0:000        6E9BE000: 'DSDT', 'CFL', Rev: 2, Len: 143643
+34:807  0:003        6FC05000: 'FACS', Ver: 2, Len: 64
+34:807  0:000    1. 6EA93000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+34:807  0:000    2. 6EA92000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+34:807  0:000    3. 6EA59000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14742
+34:807  0:000    4. 6E9EB000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12605
+34:807  0:000    5. 6E9EA000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1554
+34:807  0:000    6. 6E9E9000: 'TPM2', 'TP-R0Y', Rev: 4, Len: 52
+34:807  0:000    7. 6FC1A000: 'UEFI', 'TP-R0Y', Rev: 1, Len: 66
+34:807  0:000    8. 6E9E7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1336
+34:807  0:000    9. 6E9E5000: 'HPET', 'TP-R0Y', Rev: 1, Len: 56
+34:807  0:000    10. 6E9E4000: 'APIC', 'TP-R0Y', Rev: 3, Len: 300
+34:807  0:000    11. 6E9E3000: 'MCFG', 'TP-R0Y', Rev: 1, Len: 60
+34:807  0:000    12. 6E9E2000: 'ECDT', 'TP-R0Y', Rev: 1, Len: 83
+34:807  0:000    13. 6E9BB000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 8964
+34:807  0:000    14. 6E9BA000: 'BOOT', 'TP-R0Y', Rev: 1, Len: 40
+34:807  0:000    15. 6E9B9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3299
+34:807  0:000    16. 6E9B8000: 'LPIT', 'TP-R0Y', Rev: 1, Len: 92
+34:807  0:000    17. 6E9B7000: 'WSMT', 'TP-R0Y', Rev: 1, Len: 40
+34:807  0:000    18. 6E9B5000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5279
+34:807  0:000    19. 6E9B4000: 'DBGP', 'TP-R0Y', Rev: 1, Len: 52
+34:807  0:000    20. 6E9B3000: 'DBG2', 'TP-R0Y', Rev: 0, Len: 84
+34:807  0:000    21. 6E9B2000: 'MSDM', 'TP-R0Y', Rev: 3, Len: 85
+34:807  0:000    22. 6E99D000: 'BATB', 'TP-R0Y', Rev: 2, Len: 74
+34:807  0:000    23. 6DB97000: 'NHLT', 'TP-R0Y', Rev: 0, Len: 45
+34:807  0:000    24. 6DB96000: 'DMAR', 'TP-R0Y', Rev: 1, Len: 168
+34:807  0:000    25. 6DB94000: 'FPDT', 'TP-R0Y', Rev: 1, Len: 68
+34:807  0:000    26. 6DB93000: 'BGRT', 'TP-R0Y', Rev: 1, Len: 56
+34:807  0:000    27. 6FC00000: 'UEFI', 'TP-R0Y', Rev: 1, Len: 278
+34:807  0:000  Found UEFI Acpi 1.0 RSDP at 6FD0E000
+34:807  0:000  Printing ACPI tables from RSDP 6FD0E000 ...
+34:807  0:000   6FD0E000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+34:807  0:000    (Rsdt: 6FD0C000)
+34:807  0:000    6FD0C000: 'RSDT', 'TP-R0Y', Rev: 1, Len: 148
+34:807  0:000    Tables in Rsdt: 28
+34:807  0:000    0. 6E9E6000: 'FACP', 'TP-R0Y', Rev: 6, Len: 276
+34:807  0:000        (Dsdt: 6E9BE000, Facs: 6FC05000, XDsdt: 6E9BE000, XFacs: 0)
+34:807  0:000        6E9BE000: 'DSDT', 'CFL', Rev: 2, Len: 143643
+34:810  0:003        6FC05000: 'FACS', Ver: 2, Len: 64
+34:810  0:000    1. 6EA93000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+34:810  0:000    2. 6EA92000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+34:810  0:000    3. 6EA59000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14742
+34:810  0:000    4. 6E9EB000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12605
+34:810  0:000    5. 6E9EA000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1554
+34:810  0:000    6. 6E9E9000: 'TPM2', 'TP-R0Y', Rev: 4, Len: 52
+34:810  0:000    7. 6FC1A000: 'UEFI', 'TP-R0Y', Rev: 1, Len: 66
+34:810  0:000    8. 6E9E7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1336
+34:810  0:000    9. 6E9E5000: 'HPET', 'TP-R0Y', Rev: 1, Len: 56
+34:811  0:000    10. 6E9E4000: 'APIC', 'TP-R0Y', Rev: 3, Len: 300
+34:811  0:000    11. 6E9E3000: 'MCFG', 'TP-R0Y', Rev: 1, Len: 60
+34:811  0:000    12. 6E9E2000: 'ECDT', 'TP-R0Y', Rev: 1, Len: 83
+34:811  0:000    13. 6E9BB000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 8964
+34:811  0:000    14. 6E9BA000: 'BOOT', 'TP-R0Y', Rev: 1, Len: 40
+34:811  0:000    15. 6E9B9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3299
+34:811  0:000    16. 6E9B8000: 'LPIT', 'TP-R0Y', Rev: 1, Len: 92
+34:811  0:000    17. 6E9B7000: 'WSMT', 'TP-R0Y', Rev: 1, Len: 40
+34:811  0:000    18. 6E9B5000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5279
+34:811  0:000    19. 6E9B4000: 'DBGP', 'TP-R0Y', Rev: 1, Len: 52
+34:811  0:000    20. 6E9B3000: 'DBG2', 'TP-R0Y', Rev: 0, Len: 84
+34:811  0:000    21. 6E9B2000: 'MSDM', 'TP-R0Y', Rev: 3, Len: 85
+34:811  0:000    22. 6E99D000: 'BATB', 'TP-R0Y', Rev: 2, Len: 74
+34:811  0:000    23. 6DB97000: 'NHLT', 'TP-R0Y', Rev: 0, Len: 45
+34:811  0:000    24. 6DB96000: 'DMAR', 'TP-R0Y', Rev: 1, Len: 168
+34:811  0:000    25. 6DB94000: 'FPDT', 'TP-R0Y', Rev: 1, Len: 68
+34:811  0:000    26. 6DB93000: 'BGRT', 'TP-R0Y', Rev: 1, Len: 56
+34:811  0:000    27. 6FC00000: 'UEFI', 'TP-R0Y', Rev: 1, Len: 278
