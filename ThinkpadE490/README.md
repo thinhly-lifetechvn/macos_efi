@@ -15,7 +15,6 @@
 - Intel Wireless-AC 9260 (WiFi and Bluetooth)
 
 ##### Havent checked
-- SATA
 - Type C USB Video Output
 - Headphone Jack
 - Hibernation
