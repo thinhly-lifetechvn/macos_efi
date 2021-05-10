@@ -112,7 +112,7 @@
 				<key></key>
 				<data></data>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAASWQ==</data>
+				<data>AAAbWQ==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
@@ -544,7 +544,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string></string>
+				<string>-v</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 			</dict>
