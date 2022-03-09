@@ -4,7 +4,7 @@ Port 6
 
 ![Screenshot](https://github.com/thinhly-lifetechvn/macos_efi/blob/master/HP%20Prodesk%20400%20G6%20Desktop%20Mini/HP%20Prodesk%20400%20G6%20Desktop%20Mini%20PC.jpeg)
 
-### CPU: i3 10100T
+### CPU: i3 10100T (UHD 630)
 ### Chipset: Q470
 ### SSD NVME Samsung 256GB
 
